@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata - Daftar Riwayat Hidup</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <header class="text-center mb-5">
+            <h1 class="display-4">Daftar Riwayat Hidup</h1>
+        </header>
+
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="img/foto.jpeg" alt="Foto Profil" class="img-fluid rounded-circle mb-4 profile-photo">
+            </div>
+            <div class="col-md-8">
+                <h2>Nama: Achmad Faujan</h2>
+                <p><strong>Email:</strong> achmadfauboy@email.com</p>
+                <p><strong>Tempat, Tanggal Lahir:</strong> Cilacap, 9 September 2001</p>
+                <p><strong>Alamat:</strong> Danasri Lor, RT/RW 01/04, Kec.Nusawungu, Kab.Cilacap</p>
+                <p><strong>Telepon:</strong> 088216124504</p>
+            </div>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Riwayat Pendidikan</h3>
+                <ul class="list-group">
+                    <li class="list-group-item"><strong>Teknik Ototronik</strong>, SMK Negeri Nusawungu - 2017-2020</li>
+                    <li class="list-group-item"><strong>SMP Negeri 03 Binangun</strong> - 2014-2017</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Pengalaman Kerja</h3>
+                <ul class="list-group">
+                    <li class="list-group-item"><strong>Tenaga Administrasi</strong>, SD Negeri Pesawahan 02 - 2023 - Sekarang</li>
+                    <li class="list-group-item"><strong>Barista</strong>, Sout Java Pantai Indah Widarapayung - 2021 - 2022</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h3>Keahlian</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">Pengembangan Web (HTML, CSS, JavaScript, PHP)</li>
+                    <li class="list-group-item">Manajemen Basis Data (MySQL, PostgreSQL)</li>
+                    <li class="list-group-item">Framework (Laravel, React)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <button class="btn btn-primary" onclick="printCV()">Cetak CV</button>
+        </div>
+    </div>
+
+    <footer class="text-center mt-5 py-3 bg-dark text-white">
+        <p>&copy; 2024 Elang SP</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function printCV() {
+            window.print();
+        }
+    </script>
+</body>
+</html>
